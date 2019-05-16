@@ -1,0 +1,32 @@
+PODS:
+  - OHHTTPStubs (8.0.0):
+    - OHHTTPStubs/Default (= 8.0.0)
+  - OHHTTPStubs/Core (8.0.0)
+  - OHHTTPStubs/Default (8.0.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (8.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (8.0.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (8.0.0)
+  - SwiftLint (0.32.0)
+
+DEPENDENCIES:
+  - OHHTTPStubs (~> 8.0.0)
+  - SwiftLint (~> 0.32.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OHHTTPStubs
+    - SwiftLint
+
+SPEC CHECKSUMS:
+  OHHTTPStubs: 9cbce6364bec557cc3439aa6bb7514670d780881
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+
+PODFILE CHECKSUM: 3cfc6c744621214b28b80760897a17830f611ba1
+
+COCOAPODS: 1.6.1
