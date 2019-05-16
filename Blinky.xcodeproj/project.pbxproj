@@ -13,6 +13,8 @@
 		6D8837DD228D7B9100187BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8837DC228D7B9100187BE6 /* Assets.xcassets */; };
 		6D8837E0228D7B9100187BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8837DE228D7B9100187BE6 /* LaunchScreen.storyboard */; };
 		6D8837EB228D7B9100187BE6 /* BlinkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8837EA228D7B9100187BE6 /* BlinkyTests.swift */; };
+		806024075F4F7A88B9815894 /* Pods_Blinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC393DC291747B02C6F83D3 /* Pods_Blinky.framework */; };
+		E0709E98FED90EE508BB918D /* Pods_BlinkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A55E2171D211601FFFEC6E /* Pods_BlinkyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20712EB824297FEA73F71CF4 /* Pods-Blinky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.release.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.release.xcconfig"; sourceTree = "<group>"; };
+		3FC393DC291747B02C6F83D3 /* Pods_Blinky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blinky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8837D2228D7B8E00187BE6 /* Blinky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blinky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8837D5228D7B8E00187BE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D8837D7228D7B8E00187BE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,10 @@
 		6D8837E6228D7B9100187BE6 /* BlinkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8837EA228D7B9100187BE6 /* BlinkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkyTests.swift; sourceTree = "<group>"; };
 		6D8837EC228D7B9100187BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A55E2171D211601FFFEC6E /* Pods_BlinkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6AA97C35CA3AAEC3547B2B4 /* Pods-BlinkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyTests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkyTests/Pods-BlinkyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE2F2BF5716AFF4C2620D049 /* Pods-Blinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.debug.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.debug.xcconfig"; sourceTree = "<group>"; };
+		FDE7FCF1168DB883BC3469C7 /* Pods-BlinkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyTests.release.xcconfig"; path = "Target Support Files/Pods-BlinkyTests/Pods-BlinkyTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806024075F4F7A88B9815894 /* Pods_Blinky.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0709E98FED90EE508BB918D /* Pods_BlinkyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B00FDB49F7B48204568A071 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE2F2BF5716AFF4C2620D049 /* Pods-Blinky.debug.xcconfig */,
+				20712EB824297FEA73F71CF4 /* Pods-Blinky.release.xcconfig */,
+				A6AA97C35CA3AAEC3547B2B4 /* Pods-BlinkyTests.debug.xcconfig */,
+				FDE7FCF1168DB883BC3469C7 /* Pods-BlinkyTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D8837C9228D7B8E00187BE6 = {
 			isa = PBXGroup;
 			children = (
 				6D8837D4228D7B8E00187BE6 /* Blinky */,
 				6D8837E9228D7B9100187BE6 /* BlinkyTests */,
 				6D8837D3228D7B8E00187BE6 /* Products */,
+				3B00FDB49F7B48204568A071 /* Pods */,
+				E8087F961C992AF6964390CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +120,15 @@
 			path = BlinkyTests;
 			sourceTree = "<group>";
 		};
+		E8087F961C992AF6964390CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FC393DC291747B02C6F83D3 /* Pods_Blinky.framework */,
+				A3A55E2171D211601FFFEC6E /* Pods_BlinkyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D8837EF228D7B9100187BE6 /* Build configuration list for PBXNativeTarget "Blinky" */;
 			buildPhases = (
+				B4DC98514D94290874DCE7D4 /* [CP] Check Pods Manifest.lock */,
 				6D8837CE228D7B8E00187BE6 /* Sources */,
 				6D8837CF228D7B8E00187BE6 /* Frameworks */,
 				6D8837D0228D7B8E00187BE6 /* Resources */,
+				240F400EE56AE4412D2519F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D8837F2228D7B9100187BE6 /* Build configuration list for PBXNativeTarget "BlinkyTests" */;
 			buildPhases = (
+				752AC474253929EAC1303AF4 /* [CP] Check Pods Manifest.lock */,
 				6D8837E2228D7B9100187BE6 /* Sources */,
 				6D8837E3228D7B9100187BE6 /* Frameworks */,
 				6D8837E4228D7B9100187BE6 /* Resources */,
@@ -191,6 +227,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		240F400EE56AE4412D2519F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blinky/Pods-Blinky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/OHHTTPStubs/OHHTTPStubs.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OHHTTPStubs.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blinky/Pods-Blinky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752AC474253929EAC1303AF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4DC98514D94290874DCE7D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blinky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D8837CE228D7B8E00187BE6 /* Sources */ = {
@@ -358,6 +463,7 @@
 		};
 		6D8837F0228D7B9100187BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2F2BF5716AFF4C2620D049 /* Pods-Blinky.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -377,6 +483,7 @@
 		};
 		6D8837F1228D7B9100187BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20712EB824297FEA73F71CF4 /* Pods-Blinky.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -396,6 +503,7 @@
 		};
 		6D8837F3228D7B9100187BE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6AA97C35CA3AAEC3547B2B4 /* Pods-BlinkyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -416,6 +524,7 @@
 		};
 		6D8837F4228D7B9100187BE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE7FCF1168DB883BC3469C7 /* Pods-BlinkyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
