@@ -35,6 +35,9 @@
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="bwZ-1W-IIM" kind="show" id="7yn-Mc-ATX"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="bkA-vk-h2M">
                                         <rect key="frame" x="0.0" y="123" width="375" height="44"/>
@@ -85,6 +88,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vNs-bo-Szi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1039.2" y="20.239880059970016"/>
+        </scene>
+        <!--SearchFriend-->
+        <scene sceneID="6NI-Ub-ySZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SearchFriend" id="bwZ-1W-IIM" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDn-MT-iSo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="-38"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="8Gy-66-bCr">
